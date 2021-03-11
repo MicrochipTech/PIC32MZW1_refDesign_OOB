@@ -6,12 +6,9 @@
 [![Latest release date](https://img.shields.io/github/release-date/MicrochipTech/PIC32MZW1_refDesign_OOB?style=for-the-badge)](https://github.com/MicrochipTech/PIC32MZW1_refDesign_OOB/releases/latest)
 
 
-<div style="background-color:#d73a49;color:white" >
-  <br/>
-  <h4>The demo should only be programmed into a reference design board with an A1 silicon</h4>
-  <br/>
-</div>
-
+```diff
+- The demo should only be programmed into a reference design board with an A1 silicon
+```
 </br>
 
 This repository contains the code, tools and documentation for the Out of Box demo for the [PIC32MZW1](https://www.microchip.com/en-us/products/wireless-connectivity/embedded-wi-fi/pic32mz-w1-wi-fi-soc-and-module-family) chip-down reference design board.
