@@ -40,7 +40,7 @@ children:
       - type: Float
         attributes: {id: max}
         children:
-        - {type: Value, value: '167.7696'}
+        - {type: Value, value: '167.77472'}
   - type: Boolean
     attributes: {id: TMR_INTERRUPT_MODE}
     children:
@@ -71,4 +71,4 @@ children:
         children:
         - {type: Value, value: Touch_timer}
 - type: ElementPosition
-  attributes: {x: '754', y: '115', id: tmr2}
+  attributes: {x: '498', y: '172', id: tmr2}

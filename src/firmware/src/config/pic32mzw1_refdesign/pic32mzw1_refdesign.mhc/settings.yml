@@ -1,11 +1,11 @@
 configName: pic32mzw1_refdesign
 folderName: pic32mzw1_refdesign_oob
 format_version: v1.0
-frameworkPath: C:\Microchip\H3_release
+frameworkPath: D:\H3_Internal_B0
 processor: PIC32MZ1025W104132
 projectName: pic32mzw1_refdesign_oob
 settings:
-  PackageFilter: bootloader;bootloader_apps_ethernet;bootloader_apps_i2c;bootloader_apps_sdcard;bootloader_apps_uart;bootloader_apps_usb;bsp;core;core_apps_pic32mz_w1;crypto;cryptoauthlib;cryptoauthlib_apps;crypto_apps_encrypt_decrypt;crypto_apps_large_hash;crypto_apps_speed_test;csp;csp_apps_pic32mz_w1;net;quick_docs;touch;usb;wireless;wireless;
+  PackageFilter: bsp;core;crypto;cryptoauthlib;csp;net;quick_docs;touch;usb;wireless_system_pic32mzw1_wfi32e01;wireless_wifi
   FORCE_OPTIMIZATION: 'false'
   GENERATE_BACKUP: 'true'
   TRUSTZONE: 'false'

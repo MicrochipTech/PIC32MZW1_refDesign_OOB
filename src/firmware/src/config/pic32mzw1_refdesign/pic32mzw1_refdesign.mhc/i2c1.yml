@@ -46,5 +46,12 @@ children:
       children:
       - type: User
         attributes: {value: '1000000'}
+  - type: Long
+    attributes: {id: I2C_CLOCK_SPEED_HZ}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: i2c1, value: '1000000'}
 - type: ElementPosition
   attributes: {x: '21', y: '20', id: i2c1}

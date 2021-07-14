@@ -232,9 +232,12 @@ const DRV_SPI_INIT drvSPI0InitData =
 // </editor-fold>
 static CRYPT_RNG_CTX wdrvRngCtx;
 static const WDRV_PIC32MZW_SYS_INIT wdrvPIC32MZW1InitData = {
-    .pCryptRngCtx = &wdrvRngCtx,
-	.pRegDomName  = "GEN"
+    .pCryptRngCtx  = &wdrvRngCtx,
+    .pRegDomName   = "GEN",
+    .powerSaveMode = WDRV_PIC32MZW_POWERSAVE_RUN_MODE,
+    .powerSavePICCorrelation = WDRV_PIC32MZW_POWERSAVE_PIC_ASYNC_MODE
 };
+
 
 
 // *****************************************************************************
@@ -789,8 +792,8 @@ void SYS_Initialize ( void* data )
     __builtin_disable_interrupts();
 
   
-    CLK_Initialize();
-	SYS_PMU_MLDO_TRIM();
+    PMU_Initialize();
+	CLK_Initialize();
 
     /* Configure Wait States */
     PRECONbits.PFMWS = 5;
@@ -818,8 +821,9 @@ void SYS_Initialize ( void* data )
     /* Initialize SPI0 Driver Instance */
     sysObj.drvSPI0 = DRV_SPI_Initialize(DRV_SPI_INDEX_0, (SYS_MODULE_INIT *)&drvSPI0InitData);
     /* Initialize the PIC32MZW1 Driver */
-    CRYPT_RNG_Initialize(wdrvPIC32MZW1InitData.pCryptRngCtx);
+    CRYPT_RNG_Initialize(&wdrvRngCtx);
     sysObj.drvWifiPIC32MZW1 = WDRV_PIC32MZW_Initialize(WDRV_PIC32MZW_SYS_IDX_0, (SYS_MODULE_INIT*)&wdrvPIC32MZW1InitData);
+
 
     sysObj.sysTime = SYS_TIME_Initialize(SYS_TIME_INDEX_0, (SYS_MODULE_INIT *)&sysTimeInitData);
     sysObj.sysConsole0 = SYS_CONSOLE_Initialize(SYS_CONSOLE_INDEX_0, (SYS_MODULE_INIT *)&sysConsole0Init);

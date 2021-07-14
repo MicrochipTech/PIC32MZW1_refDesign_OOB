@@ -273,4 +273,4 @@ children:
       - type: TargetAttachment
         attributes: {targetComponentID: drv_memory_0, targetAttachmentID: drv_media}
 - type: ElementPosition
-  attributes: {x: '536', y: '155', id: sys_fs}
+  attributes: {x: '349', y: '175', id: sys_fs}

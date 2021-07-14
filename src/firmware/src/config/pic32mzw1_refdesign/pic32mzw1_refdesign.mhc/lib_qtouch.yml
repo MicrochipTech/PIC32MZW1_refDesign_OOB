@@ -635,20 +635,6 @@ children:
       children:
       - type: User
         attributes: {value: '10'}
-  - type: Boolean
-    attributes: {id: TOUCH_LOADED}
-    children:
-    - type: Values
-      children:
-      - type: Dynamic
-        attributes: {id: TOUCH_LOADED, value: 'true'}
-  - type: Boolean
-    attributes: {id: TOUCH_PRE_GENERATE}
-    children:
-    - type: Values
-      children:
-      - type: Dynamic
-        attributes: {id: TOUCH_PRE_GENERATE, value: 'true'}
   - type: File
     attributes: {id: TOUCH_SURFACE2T_HEADER}
     children:
@@ -704,4 +690,4 @@ children:
         children:
         - {type: Value, value: TMR2_TMR}
 - type: ElementPosition
-  attributes: {x: '927', y: '34', id: lib_qtouch}
+  attributes: {x: '656', y: '143', id: lib_qtouch}

@@ -321,6 +321,7 @@
           <itemPath>../src/config/pic32mzw1_refdesign/definitions.h</itemPath>
           <itemPath>../src/config/pic32mzw1_refdesign/config.h</itemPath>
           <itemPath>../src/config/pic32mzw1_refdesign/FreeRTOSConfig.h</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/interrupts.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f3" displayName="FreeRTOS" projectFiles="true">
@@ -685,8 +686,8 @@
           <itemPath>../src/config/pic32mzw1_refdesign/interrupts.c</itemPath>
           <itemPath>../src/config/pic32mzw1_refdesign/interrupts_a.S</itemPath>
           <itemPath>../src/config/pic32mzw1_refdesign/exceptions.c</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/system_pmu_mldo_trim.c</itemPath>
           <itemPath>../src/config/pic32mzw1_refdesign/freertos_hooks.c</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pmu_init.c</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="f3" displayName="FreeRTOS" projectFiles="true">
@@ -855,64 +856,64 @@
       <logicalFolder name="f1"
                      displayName="pic32mzw1_refdesign.mhc"
                      projectFiles="true">
-        <logicalFolder name="f1" displayName="System_Component" projectFiles="true">
+        <logicalFolder name="f1" displayName="System_Configuration" projectFiles="true">
           <logicalFolder name="f1" displayName="TCP_IP_STACK" projectFiles="true">
             <logicalFolder name="f1" displayName="APPLICATION_LAYER" projectFiles="true">
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/APPLICATION_LAYER/APPLICATION_LAYER.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/APPLICATION_LAYER/tcpipDhcp.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/APPLICATION_LAYER/tcpipDhcps.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/APPLICATION_LAYER/tcpipDns.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/APPLICATION_LAYER/tcpipDnss.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/APPLICATION_LAYER/tcpipHttpNet.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/APPLICATION_LAYER/tcpip_apps_config.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/APPLICATION_LAYER/APPLICATION_LAYER.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/APPLICATION_LAYER/tcpipDhcp.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/APPLICATION_LAYER/tcpipDhcps.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/APPLICATION_LAYER/tcpipDns.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/APPLICATION_LAYER/tcpipDnss.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/APPLICATION_LAYER/tcpipHttpNet.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/APPLICATION_LAYER/tcpip_apps_config.yml</itemPath>
             </logicalFolder>
             <logicalFolder name="f2" displayName="BASIC_CONFIGURATION" projectFiles="true">
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/BASIC_CONFIGURATION/BASIC_CONFIGURATION.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/BASIC_CONFIGURATION/tcpipCmd.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/BASIC_CONFIGURATION/tcpip_basic_config.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/BASIC_CONFIGURATION/BASIC_CONFIGURATION.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/BASIC_CONFIGURATION/tcpipCmd.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/BASIC_CONFIGURATION/tcpip_basic_config.yml</itemPath>
             </logicalFolder>
             <logicalFolder name="f3" displayName="DRIVER_LAYER" projectFiles="true">
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/DRIVER_LAYER/DRIVER_LAYER.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/DRIVER_LAYER/tcpip_driver_config.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/DRIVER_LAYER/DRIVER_LAYER.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/DRIVER_LAYER/tcpip_driver_config.yml</itemPath>
             </logicalFolder>
             <logicalFolder name="f4" displayName="NETWORK_LAYER" projectFiles="true">
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/NETWORK_LAYER/NETWORK_LAYER.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/NETWORK_LAYER/tcpipArp.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/NETWORK_LAYER/tcpipIcmp.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/NETWORK_LAYER/tcpipIPv4.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/NETWORK_LAYER/tcpip_network_config.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/NETWORK_LAYER/NETWORK_LAYER.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/NETWORK_LAYER/tcpipArp.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/NETWORK_LAYER/tcpipIcmp.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/NETWORK_LAYER/tcpipIPv4.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/NETWORK_LAYER/tcpip_network_config.yml</itemPath>
             </logicalFolder>
             <logicalFolder name="f5" displayName="PRESENTATION_LAYER" projectFiles="true">
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/PRESENTATION_LAYER/net_Pres.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/PRESENTATION_LAYER/PRESENTATION_LAYER.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/PRESENTATION_LAYER/net_Pres.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/PRESENTATION_LAYER/PRESENTATION_LAYER.yml</itemPath>
             </logicalFolder>
             <logicalFolder name="f6" displayName="TRANSPORT_LAYER" projectFiles="true">
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/TRANSPORT_LAYER/tcpipTcp.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/TRANSPORT_LAYER/tcpipUdp.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/TRANSPORT_LAYER/tcpip_transport_config.yml</itemPath>
-              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/TRANSPORT_LAYER/TRANSPORT_LAYER.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/TRANSPORT_LAYER/tcpipTcp.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/TRANSPORT_LAYER/tcpipUdp.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/TRANSPORT_LAYER/tcpip_transport_config.yml</itemPath>
+              <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/TRANSPORT_LAYER/TRANSPORT_LAYER.yml</itemPath>
             </logicalFolder>
-            <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/TCP_IP_STACK/TCP_IP_STACK.yml</itemPath>
+            <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/TCP_IP_STACK/TCP_IP_STACK.yml</itemPath>
           </logicalFolder>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/core_timer.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/dfp.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/drvWifiPic32mzw1.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/drv_ba414e.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/FreeRTOS.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/HarmonyCore.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/lib_crypto.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/lib_wolfcrypt.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/System_Component.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/sys_command.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/sys_console.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/sys_debug.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/sys_time.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/tcpipNetConfig.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/tcpipStack.yml</itemPath>
-          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Component/uart1.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/core_timer.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/drvWifiPic32mzw1.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/drv_ba414e.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/FreeRTOS.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/HarmonyCore.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/lib_crypto.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/lib_wolfcrypt.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/System_Configuration.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/sys_command.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/sys_console.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/sys_debug.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/sys_time.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/tcpipNetConfig.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/tcpipStack.yml</itemPath>
+          <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/System_Configuration/uart1.yml</itemPath>
         </logicalFolder>
         <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/adchs.yml</itemPath>
         <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/core.yml</itemPath>
+        <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/dfp.yml</itemPath>
         <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/drv_memory.yml</itemPath>
         <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/drv_spi.yml</itemPath>
         <itemPath>../src/config/pic32mzw1_refdesign/pic32mzw1_refdesign.mhc/GraphSettings.yml</itemPath>
@@ -951,7 +952,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC32MZ-W_DFP" vendor="Microchip" version="1.3.177"/>
+        <pack name="PIC32MZ-W_DFP" vendor="Microchip" version="1.4.193"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -994,7 +995,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mzw1_refdesign/driver/wifi/pic32mzw1/include/;../src/third_party/wolfssl/wolfssl;../src/third_party/wolfssl;../src;../src/config/pic32mzw1_refdesign;../src/packs/PIC32MZ1025W104132_DFP;../src/config/pic32mzw1_refdesign/library;../src/config/pic32mzw1_refdesign/library/tcpip/src;../src/config/pic32mzw1_refdesign/library/tcpip/src/common"/>
+                  value="../src;../src/config/pic32mzw1_refdesign;../src/config/pic32mzw1_refdesign/driver/wifi/pic32mzw1/include/;../src/config/pic32mzw1_refdesign/library;../src/config/pic32mzw1_refdesign/library/tcpip/src;../src/config/pic32mzw1_refdesign/library/tcpip/src/common;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ;../src/third_party/wolfssl;../src/third_party/wolfssl/wolfssl"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -1004,9 +1005,10 @@
         <property key="post-instruction-scheduling" value="default"/>
         <property key="pre-instruction-scheduling" value="default"/>
         <property key="preprocessor-macros"
-                  value="WOLFSSL_IGNORE_FILE_WARN;HAVE_CONFIG_H"/>
+                  value="HAVE_CONFIG_H;WOLFSSL_IGNORE_FILE_WARN"/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
+        <property key="tentative-definitions" value=""/>
         <property key="toplevel-reordering" value=""/>
         <property key="unaligned-access" value=""/>
         <property key="use-cci" value="false"/>
@@ -1022,9 +1024,9 @@
         <property key="exclude-floating-point-library" value="false"/>
         <property key="expand-macros" value="false"/>
         <property key="extra-include-directories-for-assembler"
-                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mzw1_refdesign;"/>
+                  value="../src/config/pic32mzw1_refdesign;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ"/>
         <property key="extra-include-directories-for-preprocessor"
-                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ;../src/third_party/rtos/FreeRTOS/Source/include;../src/config/pic32mzw1_refdesign;"/>
+                  value="../src/config/pic32mzw1_refdesign;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ"/>
         <property key="false-conditionals" value="false"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
@@ -1040,6 +1042,7 @@
       </C32-AS>
       <C32-CO>
         <property key="coverage-enable" value=""/>
+        <property key="stack-guidance" value="false"/>
       </C32-CO>
       <C32-LD>
         <property key="additional-options-use-response-files" value="false"/>
@@ -1093,7 +1096,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ;../src/third_party/rtos/FreeRTOS/Source/include;../src;../src/config/pic32mzw1_refdesign;../src/packs/PIC32MZ1025W104132_DFP"/>
+                  value="../src;../src/config/pic32mzw1_refdesign;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/MPLAB/PIC32MZ"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -1121,6 +1124,7 @@
         <property key="omit-pack-options" value="1"/>
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="false"/>
+        <property key="stack-smashing" value=""/>
         <property key="wpo-lto" value="false"/>
       </C32Global>
       <PICkit3PlatformTool>
@@ -1184,6 +1188,102 @@
         <property key="programoptions.uselvpprogramming" value="false"/>
         <property key="voltagevalue" value="3.25"/>
       </PICkit3PlatformTool>
+      <Tool>
+        <property key="ADC" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CAN1" value="true"/>
+        <property key="CANFD2" value="true"/>
+        <property key="CHANGE NOTICE A" value="true"/>
+        <property key="CHANGE NOTICE B" value="true"/>
+        <property key="CHANGE NOTICE C" value="true"/>
+        <property key="CHANGE NOTICE K" value="true"/>
+        <property key="CLOCK CONTROL LVDCON" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="ETHERNET CONTROLLER" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C 1" value="true"/>
+        <property key="I2C 2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="REFERENCE CLOCK 1" value="true"/>
+        <property key="SPI/I2S 1" value="true"/>
+        <property key="SPI/I2S 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="TIMER6" value="true"/>
+        <property key="TIMER7" value="true"/>
+        <property key="ToolFirmwareFilePath"
+                  value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UpdateOptions"
+                  value="ToolFirmwareOption.UseLatest"/>
+        <property key="ToolFirmwareToolPack"
+                  value="Press to select which tool pack to use"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="UART3" value="true"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value=""/>
+        <property key="communication.interface.jtag" value="2wire"/>
+        <property key="communication.speed" value="${communication.speed.default}"/>
+        <property key="debugoptions.simultaneous.debug" value="false"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges"
+                  value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="10000000-100fffff"/>
+        <property key="memories.rww" value="true"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoImageName" value="pic32mzw1_refdesign_oob_ptg"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.ledbrightness" value="5"/>
+        <property key="programoptions.pgcconfig" value="pull down"/>
+        <property key="programoptions.pgcresistor.value" value="4.7"/>
+        <property key="programoptions.pgdconfig" value="pull down"/>
+        <property key="programoptions.pgdresistor.value" value="4.7"/>
+        <property key="programoptions.pgmentry.voltage" value="low"/>
+        <property key="programoptions.pgmspeed" value="Med"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges"
+                  value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="ptgProgramImage" value="true"/>
+        <property key="ptgSendImage" value="true"/>
+        <property key="toolpack.updateoptions"
+                  value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion"
+                  value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value="3.25"/>
+      </Tool>
       <pk4hybrid>
         <property key="ADC" value="true"/>
         <property key="AutoSelectMemRanges" value="auto"/>
@@ -1233,6 +1333,7 @@
         <property key="communication.interface" value=""/>
         <property key="communication.interface.jtag" value="2wire"/>
         <property key="communication.speed" value="${communication.speed.default}"/>
+        <property key="debugoptions.simultaneous.debug" value="false"/>
         <property key="debugoptions.useswbreakpoints" value="false"/>
         <property key="freeze.timers" value="false"/>
         <property key="memories.aux" value="false"/>
