@@ -307,27 +307,27 @@ c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(sbrk.o)
                               build/pic32mzw1_refdesign/production/_ext/1360937237/malloc.o (getpagesize)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-reset.o)
-                              C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o (_on_reset)
+                              C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o (_on_reset)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-on-bootstrap.o)
-                              C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o (_on_bootstrap)
+                              C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o (_on_bootstrap)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(default-nmi-handler.o)
-                              C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o (_nmi_handler)
+                              C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o (_nmi_handler)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(errno.o)
                               build/pic32mzw1_refdesign/production/_ext/1360937237/malloc.o (errno)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(pic32_data_init.o)
-                              C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o (__pic32_data_init)
+                              C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o (__pic32_data_init)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(pic32_init_cache.o)
-                              C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o (__pic32_init_cache)
+                              C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o (__pic32_init_cache)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(pic32_init_tlb_ebi_sqi.o)
-                              C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o (__pic32_tlb_init_ebi_sqi)
+                              C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o (__pic32_tlb_init_ebi_sqi)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(general-exception.o)
-                              C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o (_general_exception_context)
+                              C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o (_general_exception_context)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(cache-err-exception.o)
-                              C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o (_cache_err_exception_context)
+                              C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o (_cache_err_exception_context)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(simple-tlb-refill-exception.o)
-                              C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o (_simple_tlb_refill_exception_context)
+                              C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o (_simple_tlb_refill_exception_context)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libpic32.a(defaultinterrupt.o)
-                              C:\Users\i16658\AppData\Local\Temp\cc3TQ2gk.o (_DefaultInterrupt)
+                              C:\Users\i16658\AppData\Local\Temp\ccIuCOGf.o (_DefaultInterrupt)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libc.a(atoi.o)
                               build/pic32mzw1_refdesign/production/_ext/1444592937/tcpip_commands.o (atoi)
 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\libc.a(calloc.o)
@@ -7304,6 +7304,10 @@ Discarded input sections
  .data          0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
  .bss           0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
  .reginfo       0x00000000       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
+ .text          0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+ .data          0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+ .bss           0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+ .reginfo       0x00000000       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .text          0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
  .data          0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
  .bss           0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
@@ -7393,10 +7397,6 @@ Discarded input sections
  .data          0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
  .bss           0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
  .reginfo       0x00000000       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
- .text          0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
- .data          0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
- .bss           0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
- .reginfo       0x00000000       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .text          0x00000000        0x0 ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_touch_key_pic32mz_0x0002.X.a(pic_touch_key_x_mz.o)
  .data          0x00000000        0x0 ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_touch_key_pic32mz_0x0002.X.a(pic_touch_key_x_mz.o)
  .bss           0x00000000        0x0 ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_touch_key_pic32mz_0x0002.X.a(pic_touch_key_x_mz.o)
@@ -8825,19 +8825,19 @@ Discarded input sections
  .data          0x00000000        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MZ1025W104132\vector_offset_init.o
  .bss           0x00000000        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MZ1025W104132\vector_offset_init.o
  .reginfo       0x00000000       0x18 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MZ1025W104132\vector_offset_init.o
- .text          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
- .data          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
- .bss           0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
- .reginfo       0x00000000       0x18 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
- .text          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\cc1mId23.o
- .data          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\cc1mId23.o
- .bss           0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\cc1mId23.o
- .reginfo       0x00000000       0x18 C:\Users\i16658\AppData\Local\Temp\cc1mId23.o
- .text          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\cc3TQ2gk.o
- .data          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\cc3TQ2gk.o
- .bss           0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\cc3TQ2gk.o
- .reginfo       0x00000000       0x18 C:\Users\i16658\AppData\Local\Temp\cc3TQ2gk.o
- .discard       0x00000000        0x4 C:\Users\i16658\AppData\Local\Temp\cc3TQ2gk.o
+ .text          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
+ .data          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
+ .bss           0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
+ .reginfo       0x00000000       0x18 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
+ .text          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\cc5X6RGJ.o
+ .data          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\cc5X6RGJ.o
+ .bss           0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\cc5X6RGJ.o
+ .reginfo       0x00000000       0x18 C:\Users\i16658\AppData\Local\Temp\cc5X6RGJ.o
+ .text          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\ccIuCOGf.o
+ .data          0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\ccIuCOGf.o
+ .bss           0x00000000        0x0 C:\Users\i16658\AppData\Local\Temp\ccIuCOGf.o
+ .reginfo       0x00000000       0x18 C:\Users\i16658\AppData\Local\Temp\ccIuCOGf.o
+ .discard       0x00000000        0x4 C:\Users\i16658\AppData\Local\Temp\ccIuCOGf.o
  .text          0x00000000        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MZ1025W104132\default_isr_vectors.o
  .data          0x00000000        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MZ1025W104132\default_isr_vectors.o
  .bss           0x00000000        0x0 c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MZ1025W104132\default_isr_vectors.o
@@ -9411,6 +9411,7 @@ LOAD build/pic32mzw1_refdesign/production/_ext/1664057780/random.o
 LOAD build/pic32mzw1_refdesign/production/_ext/1664057780/sha.o
 LOAD build/pic32mzw1_refdesign/production/_ext/1664057780/sha256.o
 LOAD build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
+LOAD build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
 LOAD build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
 LOAD build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
 LOAD build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
@@ -9420,7 +9421,6 @@ LOAD build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
 LOAD build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
 LOAD build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
 LOAD build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
-LOAD build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
 LOAD ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_touch_key_pic32mz_0x0002.X.a
 LOAD ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_surface_cs_2t_pic32mz_0x0025.X.a
 LOAD ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_surface_gestures_pic32mz_0x0023.X.a
@@ -9499,16 +9499,16 @@ END GROUP
 
 .reset          0xbfc00000      0x1b4
  *(.reset)
- .reset         0xbfc00000       0x18 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
+ .reset         0xbfc00000       0x18 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
                 0xbfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0xbfc00018      0x19c C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
+                0xbfc00018      0x19c C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
                 0xbfc00018                _startup
 
 .bev_excpt      0xbfc00380       0x10
  *(.bev_handler)
- .bev_handler   0xbfc00380       0x10 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
+ .bev_handler   0xbfc00380       0x10 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
 
 .cache_init     0xbfc004b0      0x1c0
  *(.cache_init)
@@ -9523,17 +9523,17 @@ END GROUP
                 0x90000000       0x10
  *(.simple_tlb_refill_vector)
  .simple_tlb_refill_vector
-                0x90000000       0x10 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
+                0x90000000       0x10 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
 
 .cache_err_excpt
                 0x90000100       0x10
  *(.cache_err_vector)
  .cache_err_vector
-                0x90000100       0x10 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
+                0x90000100       0x10 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
 
 .app_excpt      0x90000180       0x10
  *(.gen_handler)
- .gen_handler   0x90000180       0x10 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
+ .gen_handler   0x90000180       0x10 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
 
 .vectors        0x90000200     0x280c
                 0x90000200                . = ALIGN (0x4)
@@ -11522,6 +11522,7 @@ END GROUP
  .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/sha.o
  .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/sha256.o
  .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
+ .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
  .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
  .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
@@ -11531,7 +11532,6 @@ END GROUP
  .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
  .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
  .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
- .mdebug.abi32  0x00000000        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .mdebug.abi32  0x00000000        0x0 ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_touch_key_pic32mz_0x0002.X.a(pic_touch_key_x_mz.o)
  .mdebug.abi32  0x00000000        0x0 ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_surface_cs_2t_pic32mz_0x0025.X.a(pic_surface_cs_2t_x_mz.o)
  .mdebug.abi32  0x00000000        0x0 ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_surface_gestures_pic32mz_0x0023.X.a(pic_surface_gestures_x_mz.o)
@@ -11946,6 +11946,7 @@ END GROUP
  .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1664057780/sha.o
  .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1664057780/sha256.o
  .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
+ .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
  .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
  .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
@@ -11955,7 +11956,6 @@ END GROUP
  .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
  .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
  .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
- .comment       0x00000000       0x3d build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .comment       0x0000003c       0x3c ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_touch_key_pic32mz_0x0002.X.a(pic_touch_key_x_mz.o)
                                  0x3d (size before relaxing)
  .comment       0x00000000       0x3d ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_surface_cs_2t_pic32mz_0x0025.X.a(pic_surface_cs_2t_x_mz.o)
@@ -12550,25 +12550,25 @@ END GROUP
  .debug_aranges
                 0x000051d8       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
  .debug_aranges
-                0x000051f0       0x38 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
+                0x000051f0       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .debug_aranges
-                0x00005228       0x20 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
+                0x00005208       0x38 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
  .debug_aranges
-                0x00005248       0x18 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
+                0x00005240       0x20 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
  .debug_aranges
-                0x00005260       0x70 build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
+                0x00005260       0x18 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
  .debug_aranges
-                0x000052d0       0x70 build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
+                0x00005278       0x70 build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
  .debug_aranges
-                0x00005340       0x30 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
+                0x000052e8       0x70 build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
  .debug_aranges
-                0x00005370       0x38 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
+                0x00005358       0x30 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
  .debug_aranges
-                0x000053a8       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
+                0x00005388       0x38 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
  .debug_aranges
-                0x000053c0       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
+                0x000053c0       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
  .debug_aranges
-                0x000053d8       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+                0x000053d8       0x18 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
  .debug_aranges
                 0x000053f0      0x730 ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(iconfig.o)
  .debug_aranges
@@ -13125,16 +13125,16 @@ END GROUP
  .debug_info    0x0012c3d6     0x3870 build/pic32mzw1_refdesign/production/_ext/1664057780/sha.o
  .debug_info    0x0012fc46     0x3139 build/pic32mzw1_refdesign/production/_ext/1664057780/sha256.o
  .debug_info    0x00132d7f      0x173 build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
- .debug_info    0x00132ef2      0x6db build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
- .debug_info    0x001335cd      0x1c7 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
- .debug_info    0x00133794      0x3f0 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
- .debug_info    0x00133b84     0x102a build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
- .debug_info    0x00134bae     0x18b8 build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
- .debug_info    0x00136466     0x13f4 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
- .debug_info    0x0013785a      0xb9f build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
- .debug_info    0x001383f9      0x171 build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
- .debug_info    0x0013856a      0x170 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
- .debug_info    0x001386da      0x170 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+ .debug_info    0x00132ef2      0x170 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+ .debug_info    0x00133062      0x6db build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
+ .debug_info    0x0013373d      0x1c7 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
+ .debug_info    0x00133904      0x3f0 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
+ .debug_info    0x00133cf4     0x102a build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
+ .debug_info    0x00134d1e     0x18b8 build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
+ .debug_info    0x001365d6     0x13f4 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
+ .debug_info    0x001379ca      0xb9f build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
+ .debug_info    0x00138569      0x171 build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
+ .debug_info    0x001386da      0x170 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
  .debug_info    0x0013884a    0x133ac ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(iconfig.o)
  .debug_info    0x0014bbf6     0xac3d ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(maccontroller.o)
  .debug_info    0x00156833     0xfc2c ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(scan_manager.o)
@@ -13504,16 +13504,16 @@ END GROUP
  .debug_abbrev  0x00012335      0x2ad build/pic32mzw1_refdesign/production/_ext/1664057780/sha.o
  .debug_abbrev  0x000125e2      0x31c build/pic32mzw1_refdesign/production/_ext/1664057780/sha256.o
  .debug_abbrev  0x000128fe       0x1b build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
- .debug_abbrev  0x00012919      0x21d build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
- .debug_abbrev  0x00012b36       0x93 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
- .debug_abbrev  0x00012bc9       0xa0 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
- .debug_abbrev  0x00012c69      0x1af build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
- .debug_abbrev  0x00012e18      0x25a build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
- .debug_abbrev  0x00013072      0x1e6 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
- .debug_abbrev  0x00013258      0x146 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
- .debug_abbrev  0x0001339e       0x1b build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
- .debug_abbrev  0x000133b9       0x1b build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
- .debug_abbrev  0x000133d4       0x1b build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+ .debug_abbrev  0x00012919       0x1b build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+ .debug_abbrev  0x00012934      0x21d build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
+ .debug_abbrev  0x00012b51       0x93 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
+ .debug_abbrev  0x00012be4       0xa0 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
+ .debug_abbrev  0x00012c84      0x1af build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
+ .debug_abbrev  0x00012e33      0x25a build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
+ .debug_abbrev  0x0001308d      0x1e6 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
+ .debug_abbrev  0x00013273      0x146 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
+ .debug_abbrev  0x000133b9       0x1b build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
+ .debug_abbrev  0x000133d4       0x1b build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
  .debug_abbrev  0x000133ef      0x7c7 ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(iconfig.o)
  .debug_abbrev  0x00013bb6      0x57a ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(maccontroller.o)
  .debug_abbrev  0x00014130      0x6a7 ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(scan_manager.o)
@@ -13884,16 +13884,16 @@ END GROUP
  .debug_line    0x00027d02      0xe0c build/pic32mzw1_refdesign/production/_ext/1664057780/sha.o
  .debug_line    0x00028b0e      0x739 build/pic32mzw1_refdesign/production/_ext/1664057780/sha256.o
  .debug_line    0x00029247       0x1d build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
- .debug_line    0x00029264      0x2f5 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
- .debug_line    0x00029559       0xc6 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
- .debug_line    0x0002961f      0x112 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
- .debug_line    0x00029731      0x479 build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
- .debug_line    0x00029baa      0x33c build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
- .debug_line    0x00029ee6      0x298 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
- .debug_line    0x0002a17e      0x2f7 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
- .debug_line    0x0002a475       0x1d build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
- .debug_line    0x0002a492       0x1d build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
- .debug_line    0x0002a4af       0x1d build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+ .debug_line    0x00029264       0x1d build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+ .debug_line    0x00029281      0x2f5 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
+ .debug_line    0x00029576       0xc6 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
+ .debug_line    0x0002963c      0x112 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
+ .debug_line    0x0002974e      0x479 build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
+ .debug_line    0x00029bc7      0x33c build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
+ .debug_line    0x00029f03      0x298 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
+ .debug_line    0x0002a19b      0x2f7 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
+ .debug_line    0x0002a492       0x1d build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
+ .debug_line    0x0002a4af       0x1d build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
  .debug_line    0x0002a4cc     0x2538 ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(iconfig.o)
  .debug_line    0x0002ca04      0xfee ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(maccontroller.o)
  .debug_line    0x0002d9f2     0x1569 ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(scan_manager.o)
@@ -14564,6 +14564,7 @@ END GROUP
  .debug_str     0x000031b9        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/sha.o
  .debug_str     0x000031b9       0x1e build/pic32mzw1_refdesign/production/_ext/1664057780/sha256.o
  .debug_str     0x000031d7        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
+ .debug_str     0x000031d7        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .debug_str     0x000031d7        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
  .debug_str     0x000031d7        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
  .debug_str     0x000031d7        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
@@ -14573,7 +14574,6 @@ END GROUP
  .debug_str     0x00003213        0x0 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
  .debug_str     0x00003213        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
  .debug_str     0x00003213        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
- .debug_str     0x00003213        0x0 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .debug_str     0x00003213      0x31f ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(iconfig.o)
  .debug_str     0x00003532      0x22f ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(maccontroller.o)
  .debug_str     0x00003761      0x31a ..\src\config\pic32mzw1_refdesign\driver\wifi\pic32mzw1\lib\pic32mzw1.a(scan_manager.o)
@@ -15695,25 +15695,25 @@ END GROUP
  .gnu.attributes
                 0x00000b20       0x10 build/pic32mzw1_refdesign/production/_ext/1664057780/sha512.o
  .gnu.attributes
-                0x00000b30       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
+                0x00000b30       0x10 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
  .gnu.attributes
-                0x00000b40       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
+                0x00000b40       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/app.o
  .gnu.attributes
-                0x00000b50       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
+                0x00000b50       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/main.o
  .gnu.attributes
-                0x00000b60       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
+                0x00000b60       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/mpfs_net_img.o
  .gnu.attributes
-                0x00000b70       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
+                0x00000b70       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/OLEDB.o
  .gnu.attributes
-                0x00000b80       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
+                0x00000b80       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/user_http_net_app.o
  .gnu.attributes
-                0x00000b90       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
+                0x00000b90       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/http_net_print.o
  .gnu.attributes
-                0x00000ba0       0x10 build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
+                0x00000ba0       0x10 build/pic32mzw1_refdesign/production/_ext/1360937237/led_driver.o
  .gnu.attributes
-                0x00000bb0       0x10 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
+                0x00000bb0       0x10 build/pic32mzw1_refdesign/production/_ext/1664057780/misc.o
  .gnu.attributes
-                0x00000bc0       0x10 build/pic32mzw1_refdesign/production/_ext/1664057780/rc2.o
+                0x00000bc0       0x10 build/pic32mzw1_refdesign/production/_ext/1664057780/evp.o
  .gnu.attributes
                 0x00000bd0       0x10 ..\src\config\pic32mzw1_refdesign\touch\lib\qtm_touch_key_pic32mz_0x0002.X.a(pic_touch_key_x_mz.o)
  .gnu.attributes
@@ -16101,9 +16101,9 @@ END GROUP
                 0x90000000                PROVIDE (__pic32_init_cache_program_base_addr, 0x90000000)
                 0x80000000                PROVIDE (__pic32_init_cache_data_base_addr, 0x80000000)
                 0x0002bf20                _min_heap_size = 0x2bf20
-LOAD C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
-LOAD C:\Users\i16658\AppData\Local\Temp\cc1mId23.o
-LOAD C:\Users\i16658\AppData\Local\Temp\cc3TQ2gk.o
+LOAD C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
+LOAD C:\Users\i16658\AppData\Local\Temp\cc5X6RGJ.o
+LOAD C:\Users\i16658\AppData\Local\Temp\ccIuCOGf.o
 LOAD c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib/./proc/32MZ1025W104132\default_isr_vectors.o
 LOAD c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3/../../../../pic32mx/lib\pic32_software_reset.o
 LOAD c:/program files/microchip/xc32/v2.50/bin/bin/../../lib/gcc/pic32mx/4.8.3\libgcc.a
@@ -24462,7 +24462,7 @@ __memory__wlan_mem@.bss.pic32mzwRsrvPkts.pic32mzwRsrvPkts
 .text.main_entry
                 0x9007f69c       0x54
  .text.main_entry
-                0x9007f69c       0x54 C:\Users\i16658\AppData\Local\Temp\ccI6uIn7.o
+                0x9007f69c       0x54 C:\Users\i16658\AppData\Local\Temp\ccKGEF8B.o
                 0x9007f6d0                __crt0_exit
 
 .text.DRV_BA414E_Close
