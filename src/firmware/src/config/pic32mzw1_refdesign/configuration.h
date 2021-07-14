@@ -125,6 +125,7 @@ extern "C" {
 #define SYS_FS_USE_LFN                    1
 #define SYS_FS_FILE_NAME_LEN              255
 #define SYS_FS_CWD_STRING_LEN             1024
+#define SYS_FS_ALIGNED_BUFFER_LEN         512
 
 /* File System RTOS Configurations*/
 #define SYS_FS_STACK_SIZE                 1024
